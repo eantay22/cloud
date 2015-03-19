@@ -78,7 +78,7 @@
 <div id="page">
 
 	<div id="cabeza">
-		<center> <a href="http://www.cloud-mdc.com/"><img src="Logo-cloudMDC2.png" /></a> </center>
+		<center> <a href="http://www.cloud-mdc.com/"><img src="Logo_MDC.png" /></a> </center>
 	</DIV>
 
 	<div id="menu-contenedor">
@@ -87,6 +87,7 @@
 		<li><a href="Registro/" title="Registrarse">Registro</a></li>
 		<li><a href="all-software.php" title="Descargar el cliente Windows o Mac">Aplicativos</a></li>
 		<li><a href="all-movil.php" title="Descargar la aplicación para Android">Móviles</a></li>
+		<li><a href="#" title="Guía de usuario ">Guía de usuario</a></li>
 		</ul>
 	</div>
 
@@ -99,7 +100,7 @@
 			<img src="img/laptop-sitio-web-personalPNG.png" width="600" height="350" />
 		</div>
 		<div id="sub-div-02">
-			<img src="Logo-cloudMDC2.png" /><br />
+			<img src="Logo_MDC.png" /><br />
 			<h3> Almacene, sincronice y comparta archivos fácilmente.</h3>
 			<p>
 				Mantenga todo su trabajo en un lugar seguro mediante el almacenamiento de archivos en línea. Acceda a su trabajo cuando lo necesite, desde la laptop, la tablet o el teléfono.

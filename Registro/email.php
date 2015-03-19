@@ -4,7 +4,7 @@ require "running.php";
 <?php
 
 //DESTINO
-$para="atencion@mdc-peru.com,soporte@mdc-peru.com,soporte@cloud-mdc.com,lcerna@mdc-peruc.com";
+$para="soporte@mdc-peru.com,soporte@cloud-mdc.com";
 // ASUNTO
 $titulo = 'Nuevo usuario registrado CLOUD-MDC';
  
