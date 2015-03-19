@@ -39,6 +39,7 @@ if(isset($_POST["btn_enviar"]))
 				  		//COMPROBAMOS SI YA EXISTE
 				  		$SQL="INSERT INTO $MyTAB_USER(nombre, apellido, email, code2, fecha, ip) VALUES('$nombre','$apellido', '$email','$code', '$fecha', '$IP')";
 				  		Mysql_query($SQL);
+				  		include "email.php";
 				  		header("Location: view.php");
 				  		
 				  	}else{

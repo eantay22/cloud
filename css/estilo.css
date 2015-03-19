@@ -17,7 +17,7 @@
 ul#menu {
 	padding: 0;
 	height: 50px;
-	background-color: #f8f8f8;
+	background-color: #f1f5f9;
 }
 
 ul#menu li {
@@ -29,6 +29,12 @@ ul#menu li a {
 	display: block;
 	line-height: 50px;
 	text-decoration: none;
+	color: #353535;
+}
+ul#menu li a:hover {
+	background-color: #ff8d00;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
 }
 
 #contenido {

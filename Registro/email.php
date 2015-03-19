@@ -1,10 +1,10 @@
 <?php
-require "index.php";
+require "running.php";
 ?>
 <?php
 
 //DESTINO
-$para="atencion@mdc-peru.com,soporte@mdc-peru.com";
+$para="atencion@mdc-peru.com,soporte@mdc-peru.com,soporte@cloud-mdc.com,lcerna@mdc-peruc.com";
 // ASUNTO
 $titulo = 'Nuevo usuario registrado CLOUD-MDC';
  
