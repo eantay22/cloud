@@ -21,8 +21,8 @@ list($id, $cod_captcha) =  mysql_fetch_array($res);
 $imagen = imagecreate(100,35);
 
 //COLOR DE FONDO
-$fondo = imagecolorallocate($imagen, 53, 53, 53);
-$TEXTO = imagecolorallocate($imagen, 255, 255, 155);
+$fondo = imagecolorallocate($imagen, 242, 242, 242);
+$TEXTO = imagecolorallocate($imagen, 255, 32, 32);
 
 //VALOR ALEATORIO
 #$aleatorio = rand(100000,999999);
@@ -32,7 +32,7 @@ $TEXTO = imagecolorallocate($imagen, 255, 255, 155);
 imagefill($imagen, 50, 0, $fondo);
 
 //IMPRIMIR UN TEXTO
-imagestring($imagen, 80, 0, 0, $cod_captcha, $TEXTO);
+imagestring($imagen, 80, 8, 8, $cod_captcha, $TEXTO);
 
 //IMPRIMER LA IMAGEN
 header('Content-type: iamge/png');
