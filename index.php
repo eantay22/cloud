@@ -87,7 +87,7 @@
 		<li><a href="Registro/" title="Registrarse">Registro</a></li>
 		<li><a href="all-software.php" title="Descargar el cliente Windows o Mac">Aplicativos</a></li>
 		<li><a href="all-movil.php" title="Descargar la aplicación para Android">Móviles</a></li>
-		<li><a href="#" title="Guía de usuario ">Guía de usuario</a></li>
+		<li><a href="manual/Manual_MDC.pdf" title="Guía de usuario " target="_blank">Guía de usuario</a></li>
 		</ul>
 	</div>
 
