@@ -3,9 +3,17 @@
 	margin: 0  auto;
 	margin-top: 10px;
 	width: 960px;
-	height: 40px;
-	background-color: #dee1e4;
+	height: 70px;
+	background-color: #e4eef2;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color: #353535;
+	font-size: 0.9em;
+}
+#DIV-FOOT a{
+	text-decoration: none;
+	
+}
+.label_negrita{
+	font-weight: bold;
 }

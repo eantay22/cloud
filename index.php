@@ -132,8 +132,9 @@
 </DIV>
 <DIV ID="DIV-FOOT">
 	<center>
-		<label>soporte@cloud-mdc.com</label> <br />
-		<label>Copyright © 2015&nbsp;&nbsp;cloud-mdc.com</label>
+		<label class="label_negrita">cloud-mdc</label> <a href="Registro/about.php" target="_blank">Términos de Uso</a> <br>
+		<label class="label_negrita">soporte@cloud-mdc.com</label>&nbsp;&nbsp;<label>Telf.&nbsp;</label><label class="label_negrita">711-9770</label> <br />
+		<label>Copyright © 2015</label>
 	</center>
 </DIV>
 

@@ -9,8 +9,10 @@
 	<!-- Links CSS -->
 	<link rel="stylesheet" type="text/css" href="http://www.cloud-mdc.com/css/general.css">
 	<link rel="stylesheet" type="text/css" href="http://www.cloud-mdc.com/css/DIV-HEADER.css">
+	<link rel="stylesheet" type="text/css" href="http://www.cloud-mdc.com/css/DIV-HEADER.css">
 	<link rel="stylesheet" type="text/css" href="http://www.cloud-mdc.com/css/DIV-MAIN.css">
 	<link rel="stylesheet" type="text/css" href="http://www.cloud-mdc.com/css/DIV-FOOT.css">
+	<!--<link rel="stylesheet" type="text/css" href="/cloud/css/DIV-FOOT.css">-->
 <!-- CSS Local -->
 <style type="text/css">
 #div-form-registro{
@@ -126,7 +128,7 @@ themes: red|white|blackglass|clean
 		</div>
 		<div id="div-links-menu">
 			<a href="http://www.cloud-mdc.com/" title="Ir a Inicio" >Inicio</a>
-			<a href="#" title="Registrarse" class="active">Registro</a>
+			<a href="Registro/" title="Registrarse" class="active">Registro</a>
 			<a href="http://www.cloud-mdc.com/all-software.php" title="Descargar el cliente Windows o Mac">Aplicativos</a>
 			<a href="http://www.cloud-mdc.com/all-movil.php" title="Descargar la aplicación para Android">Moviles</a>
 		</div>
@@ -162,7 +164,7 @@ themes: red|white|blackglass|clean
 			<input Type="text" name="txt-apellido" id="txt-texto" placeholder="Apellido" Required /><br /><br />
 			<input Type="email" name="txt-email" id="txt-texto" placeholder="E-Mail" Required /><br /><br />
 			<input Type="text" name="txt-codigo" id="txt-codigo" placeholder="Codigo de activaci&oacute;n" Required /><br /><br />
-			<input type="checkbox" id="check-ok" value="Milk" Required> <label for="check-ok" id="label-check-ok" > He leído los <a href="about.php">Términos de Uso</a> </label> <br><br>
+			<input type="checkbox" id="check-ok" value="Milk" Required> <label for="check-ok" id="label-check-ok" > He leído los <a href="about.php" target="_blank">Términos de Uso</a> </label> <br><br>
 			
 			<div id="sub-div-captcha" >
 			<center><img src="captcha.php" width="100" height="30" vspace="3"/></center>
@@ -178,8 +180,9 @@ themes: red|white|blackglass|clean
 </DIV>
 <DIV ID="DIV-FOOT">
 	<center>
-		<label>soporte@cloud-mdc.com</label> <br />
-		<label>Copyright © 2015&nbsp;&nbsp;cloud-mdc.com</label>
+		<label class="label_negrita">cloud-mdc</label> <a href="about.php" target="_blank">Términos de Uso</a> <br>
+		<label class="label_negrita">soporte@cloud-mdc.com</label>&nbsp;&nbsp;<label>Telf.&nbsp;</label><label class="label_negrita">711-9770</label> <br />
+		<label>Copyright © 2015</label>
 	</center>
 </DIV>
 </body>
