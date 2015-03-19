@@ -1,13 +1,10 @@
 <?php
 require "running.php";
-?>
-<?php
 
 //DESTINO
-$para="soporte@mdc-peru.com,soporte@cloud-mdc.com";
+$para="soporte@mdc-peru.com,soporte@cloud-mdc.com,eantay@mdc-peru.com";
 // ASUNTO
-$titulo = 'Nuevo usuario registrado CLOUD-MDC';
- 
+$titulo = 'Usuario nuevo REGISTRADO cloud-mdc.com';
 // View Mesege
 $mensaje = '
 		<!DOCTYPE HTML>
@@ -64,18 +61,11 @@ $mensaje = '
 		</HTML>
 ';
 
-// Cabecera que especifica que es un HMTL
 $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
 $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
- 
-// Cabeceras adicionales
 $cabeceras .= 'From: Usuario nuevo <soporte@cloud-mdc.com>' . "\r\n";
 $cabeceras .= 'Cc: soporte@cloud-mdc.com' . "\r\n";
 $cabeceras .= 'Bcc: soporte@cloud-mdc.com' . "\r\n";
- 
-############### Mail #############################
-##################################################
-	Mail($para, $titulo, $mensaje, $cabeceras); ##
-##################################################
+Mail($para, $titulo, $mensaje, $cabeceras);
 
 ?>

@@ -131,10 +131,10 @@
 
 	<div id="menu-contenedor">
 		<ul id="menu">
-	    <li><a href="http://www.cloud-mdc.com/" title="Ir a Inicio" class="active">Inicio</a></li>
-		<li><a href="Registro/" title="Registrarse">Registro</a></li>
-		<li><a href="http://www.cloud-mdc/all-software.php" title="Descargar el cliente Windows o Mac">Aplicativos</a></li>
-		<li><a href="http://www.cloud-mdc/all-movil.php" title="Descargar la aplicación para Android">Móviles</a></li>
+	    <li><a href="http://www.cloud-mdc.com/" title="Ir a Inicio" >Inicio</a></li>
+		<li><a href="/Registro" title="Registrarse" class="active">Registro</a></li>
+		<li><a href="http://www.cloud-mdc.com/all-software.php" title="Descargar el cliente Windows o Mac">Aplicativos</a></li>
+		<li><a href="http://www.cloud-mdc.com/all-movil.php" title="Descargar la aplicación para Android">Móviles</a></li>
 		<li><a href="http://www.cloud-mdc.com/manual/Manual_MDC.pdf" title="Guía de usuario " target="_blank">Guía de usuario</a></li>
 		</ul>
 	</div>
