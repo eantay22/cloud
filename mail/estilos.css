@@ -1,0 +1,14 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+#DIV-MAIN{
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 10px;
+	border: 1px solid #CCC;
+	width: 700px;
+}

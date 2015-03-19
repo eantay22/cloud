@@ -1,0 +1,20 @@
+#DIV-HEADER{
+	max-width: 100%;
+	min-width: 960px;
+	height: 100px;
+	background-color: #ff9200;
+	border: 1px solid transparent;
+}
+	#div-logo-menu{
+		margin: 0 auto;
+		margin-top: 30px;
+		padding: 5px;
+		width: 960px;
+		/*border: 1px solid green;	*/
+	}
+		#div-logo-img{
+			float: left;
+		}
+		#div-links-menu{
+
+		}

@@ -1,0 +1,11 @@
+#DIV-FOOT{
+	overflow: auto;
+	margin: 0  auto;
+	margin-top: 10px;
+	width: 960px;
+	height: 40px;
+	background-color: #dee1e4;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #353535;
+}

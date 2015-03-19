@@ -1,0 +1,11 @@
+*{	margin: 0px; padding: 0px; }
+body{
+	font-family: 'PT Sans Narrow', sans-serif;	
+}
+.active{
+	color: #FFF;
+	background-color: #d87c00;
+	border-bottom: 6px solid #ffd343;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px
+}
