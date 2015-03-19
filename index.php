@@ -34,11 +34,11 @@
 	padding: 10px;
 	height: 350px;
 	background-color: #eeeff3;
-	background: -linear-gradient(top, #FFF,#353535 200px, #f8f8f8 350px, #353535)repeat-x fixed;
-	background: -webkit-linear-gradient(top, #FFF,#353535 200px, #f8f8f8 350px, #353535)repeat-x fixed;
-	background: -moz-linear-gradient(top, #FFF,#353535 200px, #f8f8f8 350px, #353535)repeat-x fixed;
-	background: -o-linear-gradient(top, #FFF,#353535 200px, #f8f8f8 350px, #353535)repeat-x fixed;
-	background: -ms-linear-gradient(top, #FFF,#353535 200px, #f8f8f8 350px, #353535)repeat-x fixed;
+	background: -linear-gradient(top, #FFF,#ffdc69 200px, #f8f8f8 350px, #ffdc69)repeat-x fixed;
+	background: -webkit-linear-gradient(top, #FFF,#ffdc69 200px, #f8f8f8 350px, #ffdc69)repeat-x fixed;
+	background: -moz-linear-gradient(top, #FFF,#ffdc69 200px, #f8f8f8 350px, #ffdc69)repeat-x fixed;
+	background: -o-linear-gradient(top, #FFF,#ffdc69 200px, #f8f8f8 350px, #ffdc69)repeat-x fixed;
+	background: -ms-linear-gradient(top, #FFF,#ffdc69 200px, #f8f8f8 350px, #ffdc69)repeat-x fixed;
 
 }
  	#sub-div-01{
@@ -47,7 +47,7 @@
  	}
  	#sub-div-02{
  		/*color: #8a8a8c;*/
- 		color: #F8F8F8;
+ 		color: #353535;
  		/*color: #ff9200;*/
  	}
 </style>

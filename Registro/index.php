@@ -12,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="http://www.cloud-mdc.com/css/DIV-HEADER.css">
 	<link rel="stylesheet" type="text/css" href="http://www.cloud-mdc.com/css/DIV-MAIN.css">
 	<link rel="stylesheet" type="text/css" href="http://www.cloud-mdc.com/css/DIV-FOOT.css">
+	<link rel="stylesheet" type="text/css" href="http://www.cloud-mdc.com/css/estilo.css">
 	<!--<link rel="stylesheet" type="text/css" href="/cloud/css/DIV-FOOT.css">-->
 <!-- CSS Local -->
 <style type="text/css">
@@ -109,31 +110,47 @@
 
 </style>
 
-<script type="text/javascript">
- /* 
-Para cambiar el theme del captcha.
-themes: red|white|blackglass|clean
- */
- var RecaptchaOptions = {
-    theme : 'clean'
- };
- </script>
+<script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+  var menu = $('#menu');
+  var contenedor = $('#menu-contenedor');
+  var cont_offset = contenedor.offset();
+  // Cada vez que se haga scroll en la página
+  // haremos un chequeo del estado del menú
+  // y lo vamos a alternar entre 'fixed' y 'static'.
+
+  $(window).on('scroll', function() {
+  	 //alert($(window).scrollTop());
+    if($(window).scrollTop() > cont_offset.top) {
+      menu.addClass('menu-fijo');
+    } else {
+      menu.removeClass('menu-fijo');
+    }
+  });
+});
+  </script>
 
 </head>
 <body>
-<DIV ID="DIV-HEADER">
+<div id="page">
 	<div id="div-logo-menu">
-		<div id="div-logo-img">
-			<a href="http://www.cloud-mdc.com/"><img src="Logo-cloudMDC2.png" /></a>
+		<div id="cabeza">
+			<center> <a href="http://www.cloud-mdc.com/"><img src="Logo_MDC.png" /></a> </center>
 		</div>
-		<div id="div-links-menu">
-			<a href="http://www.cloud-mdc.com/" title="Ir a Inicio" >Inicio</a>
-			<a href="Registro/" title="Registrarse" class="active">Registro</a>
-			<a href="http://www.cloud-mdc.com/all-software.php" title="Descargar el cliente Windows o Mac">Aplicativos</a>
-			<a href="http://www.cloud-mdc.com/all-movil.php" title="Descargar la aplicación para Android">Moviles</a>
+		<div id="menu-contenedor">
+			<ul id="menu">
+		    <li><a href="http://www.cloud-mdc.com/" title="Ir a Inicio" class="active">Inicio</a></li>
+			<li><a href="/Registro" title="Registrarse">Registro</a></li>
+			<li><a href="all-software.php" title="Descargar el cliente Windows o Mac">Aplicativos</a></li>
+			<li><a href="all-movil.php" title="Descargar la aplicación para Android">Móviles</a></li>
+			<li><a href="#" title="Guía de usuario ">Guía de usuario</a></li>
+			</ul>
 		</div>
 	</div>
-</DIV>
+</div>
+
+<div id="contenido">
 <DIV ID="DIV-MAIN">
 	<div id="div-form-registro">
 		<center><label><b>Active su cuenta</b></label></center>
@@ -185,5 +202,8 @@ themes: red|white|blackglass|clean
 		<label>Copyright © 2015</label>
 	</center>
 </DIV>
+
+</div>
+</div>
 </body>
 </HTML>

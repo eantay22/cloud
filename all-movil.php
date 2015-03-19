@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/DIV-HEADER.css">
 	<link rel="stylesheet" type="text/css" href="css/DIV-MAIN.css">
 	<link rel="stylesheet" type="text/css" href="css/DIV-FOOT.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 <!-- CSS Local -->
 <style type="text/css">
 #div-software{
@@ -52,46 +53,75 @@
 	/*border: 1px solid orange;*/
 }
 </style>
+
+<script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+  var menu = $('#menu');
+  var contenedor = $('#menu-contenedor');
+  var cont_offset = contenedor.offset();
+  
+  $(window).on('scroll', function() {
+    if($(window).scrollTop() > cont_offset.top) {
+      menu.addClass('menu-fijo');
+    } else {
+      menu.removeClass('menu-fijo');
+    }
+  });
+});
+  </script>
+
 </head>
 <body>
-<DIV ID="DIV-HEADER">
-	<div id="div-logo-menu">
-		<div id="div-logo-img">
-			<a href="http://www.cloud-mdc.com/"><img src="Logo-cloudMDC2.png" /></a>
-		</div>
-		<div id="div-links-menu">
-			<a href="http://www.cloud-mdc.com/" title="Ir a Inicio" >Inicio</a>
-			<a href="Registro/" title="Registrarse">Registro</a>
-			<a href="all-software.php" title="Descargar el cliente Windows o Mac" >Aplicativos</a>
-			<a href="all-movil.php" title="Descargar la aplicación para Android" class="active">Moviles</a>
-		</div>
+<div id="page">
+
+	<div id="cabeza">
+		<center> <a href="http://www.cloud-mdc.com/"><img src="Logo_MDC.png" /></a> </center>
 	</div>
-</DIV>
-<DIV ID="DIV-MAIN">
+
+	<div id="menu-contenedor">
+		<ul id="menu">
+	    <li><a href="http://www.cloud-mdc.com/" title="Ir a Inicio" class="active">Inicio</a></li>
+		<li><a href="Registro/" title="Registrarse">Registro</a></li>
+		<li><a href="all-software.php" title="Descargar el cliente Windows o Mac">Aplicativos</a></li>
+		<li><a href="all-movil.php" title="Descargar la aplicación para Android">Móviles</a></li>
+		<li><a href="#" title="Guía de usuario ">Guía de usuario</a></li>
+		</ul>
+	</div>
+
+<div id="contenido">
+
+	<DIV ID="DIV-MAIN">
+
 	<div id="div-software">
-	<div id="div-label">
-		<center><label>Descarga tu administrador de moviles</label></center>
-	</div>
-		<div id="div-windows">
-			<div id="div-img">
-			<center><img src="img/Logo-amdroid-200px.png" width="120" height="120"></center>
-			</div>
-			<center><a href="https://play.google.com/store/apps/details?id=com.getopenaccess&hl=en" target="_blank">Descargar</a></center>
+		<div id="div-label">
+			<center><label>Descarga tu administrador de moviles</label></center>
 		</div>
-		<div id="div-mac">
-			<div id="div-img">
-			<center><img src="img/Logo-ios-200px.png" width="120" height="120"></center>
+			<div id="div-windows">
+				<div id="div-img">
+				<center><img src="img/Logo-amdroid-200px.png" width="120" height="120"></center>
+				</div>
+				<center><a href="https://play.google.com/store/apps/details?id=com.getopenaccess&hl=en" target="_blank">Descargar</a></center>
 			</div>
-			<center><a href="#">Descargar</a></center>
-		</div>
+			<div id="div-mac">
+				<div id="div-img">
+				<center><img src="img/Logo-ios-200px.png" width="120" height="120"></center>
+				</div>
+				<center><a href="#">Descargar</a></center>
+			</div>
 
 	</div>
-</DIV>
-<DIV ID="DIV-FOOT">
-	<center>
-		<label>soporte@cloud-mdc.com</label> <br />
-		<label>Copyright © 2015&nbsp;&nbsp;cloud-mdc.com</label>
-	</center>
-</DIV>
+		
+	</DIV>
+	<DIV ID="DIV-FOOT">
+		<center>
+			<label class="label_negrita">cloud-mdc</label> <a href="Registro/about.php" target="_blank">Términos de Uso</a> <br>
+			<label class="label_negrita">soporte@cloud-mdc.com</label>&nbsp;&nbsp;<label>Telf.&nbsp;</label><label class="label_negrita">711-9770</label> <br />
+			<label>Copyright © 2015</label>
+		</center>
+	</DIV>
+
+</div>
+</div>
 </body>
 </HTML>
