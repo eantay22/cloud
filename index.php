@@ -30,7 +30,6 @@
 	width: 940px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	/*border: 1px solid #CCC;*/
 	padding: 10px;
 	height: 350px;
 	background-color: #eeeff3;
@@ -50,6 +49,27 @@
  		color: #353535;
  		/*color: #ff9200;*/
  	}
+ #sub_div_content2{
+ 	margin-top: 8px;
+ 	margin-bottom: 8px;
+ 	width: 940px;
+	padding: 10px;
+	height: 290px;
+	background: -webkit-linear-gradient(top, #FFF,#e5eef2 200px, #FFF 350px, #FFF)repeat-x fixed;
+	background: -moz-linear-gradient(top, #FFF,#e5eef2 200px, #FFF 350px, #FFF)repeat-x fixed;
+	background: -o-linear-gradient(top, #FFF,#e5eef2 200px, #FFF 350px, #FFF)repeat-x fixed;
+	background: -ms-linear-gradient(top, #FFF,#e5eef2 200px, #FFF 350px, #FFF)repeat-x fixed;
+	/*background-color: #f4f4f4;*/
+ }
+  	#sub_content_01{
+  		float: left;
+  		width: 400px;
+  		margin-left: 20px;
+  		color: #353535;
+  	}
+  	#sub_content_02{
+  	
+  	}
 </style>
 
 <script type="text/javascript" src="jquery.js"></script>
@@ -106,6 +126,23 @@
 				Mantenga todo su trabajo en un lugar seguro mediante el almacenamiento de archivos en línea. Acceda a su trabajo cuando lo necesite, desde la laptop, la tablet o el teléfono.
 			</p>	
 		</div>
+	</div>
+
+	<div id="sub_div_content2">
+		
+		<div id="sub_content_01">
+			<br />
+			<br />
+			<br />
+			<h3> 512 GB de almacenamiento.</h3>
+			<p>
+				Un almacenamiento de 512 GB por usuario, es mucho espacio para sus datos.
+			</p>	
+		</div>		
+		<div id="sub_content_02">
+			<img src="img/used.png"  />
+		</div>
+
 	</div>
 
 
